@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+AI-Based Smart Traffic Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Project Overview
 
-Currently, two official plugins are available:
+This project presents a browser-based simulation of a smart traffic management system. It demonstrates vehicle movement, traffic signal states, and configurable traffic inputs at a simulated four-way junction.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Objectives
 
-## React Compiler
+- To develop a visual traffic simulation.
+- To demonstrate vehicle movement and traffic signal behaviour.
+- To provide controls for starting, pausing, and resetting the simulation.
+- To explore the potential application of intelligent technologies in traffic management and road safety.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies Used
 
-## Expanding the Oxlint configuration
+- HTML, CSS and JavaScript, or the actual framework used in the project.
+- Web browser for running the application.
+- GitHub for source code management.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+How to Access the Project
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Live demonstration: https://starlit-seahorse-0d72f5.netlify.app
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Current Scope
+
+The current prototype demonstrates browser-based traffic simulation. AI-based vehicle detection and real-world traffic monitoring should be treated as future extensions unless separately implemented and tested.
